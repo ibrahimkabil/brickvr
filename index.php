@@ -43,9 +43,13 @@
       <meta property="og:image" content="share.png" />
       <meta property="og:url" content="http://www.bricksimple.com/vr" />
       <meta property="og:description" content="" />
-      <!-- Add fancyBox main JS and CSS files -->
-      <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
-      <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	  <script src="slideshow/demo/js/hammer.min.js"></script>
+      
+      <script type="text/javascript" src="slideshow/js/better-simple-slideshow.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="slideshow/css/simple-slideshow-styles.css" media="screen" />
+      
       <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
       <style>
          <?php if ($mobile == 1) { ?>
@@ -83,6 +87,34 @@
          fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
       </script>
+      
+      <script>
+    
+    /*
+    	$(function() {
+ 			var opts = {
+            //auto-advancing slides? accepts boolean (true/false) or object
+            auto : { 
+                // speed to advance slides at. accepts number of milliseconds
+                speed : 2500, 
+                // pause advancing on mouseover? accepts boolean
+                pauseOnHover : true 
+            },
+            // show fullscreen toggle? accepts boolean
+            fullScreen : true, 
+            // support swiping on touch devices? accepts boolean, requires hammer.js
+            swipe : true 
+        };
+
+			makeBSS('.vr-slideshow', opts);
+			console.log('intialized slideshow');
+		
+		});
+		
+		*/
+      
+      </script>
+      
       <!-- =========================
          PRE LOADER       
          ============================== -->
@@ -131,26 +163,28 @@
                    //echo '<br><br><br><img src="images/background.jpg" width="100%">';
                }
                ?><br><br>
-            <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none; color:#FFFFFF;'>VR Portfolio</h2>
+            <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none; color:#FFFFFF;'></h2>
             <br>
-            <center>
-               <div style='width:<?php
-                  if ($mobile != 1) { echo '950'; }else{ echo '100%'; } ?>px;'>
-                  <a href='https://www.youtube.com/watch?v=KaskOHaR3_0' target='_blank'><img class='portfolioItem' src='portfolio/showreel.jpg' width=<?php
-                     if ($mobile != 1) { echo '450'; }else{ echo '100%'; } ?> style='float:left;<?php
-                     if ($mobile != 1) { echo 'margin:10px;'; }else{ echo 'margin-bottom:15px;'; } ?>'></a>
-                  <a href='https://www.youtube.com/watch?v=eeQqvQLSyyk' target='_blank'><img class='portfolioItem' src='portfolio/halloween.jpg' width=<?php
-                     if ($mobile != 1) { echo '450'; }else{ echo '100%'; } ?>  style='float:left;<?php
-                     if ($mobile != 1) { echo 'margin:10px;'; }else{ echo 'margin-bottom:15px;'; } ?>'></a>
-                  <a href='https://www.youtube.com/watch?v=GbPuoooMo1E' target='_blank'><img class='portfolioItem' src='portfolio/nuclear.jpg' width=<?php
-                     if ($mobile != 1) { echo '450'; }else{ echo '100%'; } ?>  style='float:left;<?php
-                     if ($mobile != 1) { echo 'margin:10px;'; }else{ echo 'margin-bottom:15px;'; } ?>'></a>
-                  <a href='https://www.youtube.com/watch?v=SMuOnHk6Jgw' target='_blank'><img class='portfolioItem' src='portfolio/solarcar.jpg' width=<?php
-                     if ($mobile != 1) { echo '450'; }else{ echo '100%'; } ?>  style='float:left;<?php
-                     if ($mobile != 1) { echo 'margin:10px;'; }else{ echo 'margin-bottom:15px;'; } ?>'></a>
-               </div>
-            </center>
+            
+              
+           
       </header>
+      <!-- 
+      <div class="vr-slideshow" tabindex="1" autofocus="autofocus">
+ <figure>
+      <img src="images/screenshots/Porsche.png" width="100%" /><figcaption>"Medium" by <a href="https://www.flickr.com/photos/thomashawk/14586158819/">Thomas Hawk</a>.</figcaption> 
+    </figure>
+    <figure>
+      <img src="images/screenshots/Sentinel.png" width="100%" /><figcaption>"Colorado" by <a href="https://www.flickr.com/photos/stuckincustoms/88370744">Trey Ratcliff</a>.</figcaption> 
+    </figure>
+    <figure>
+      <img src="images/screenshots/NSquared.png" width="100%" /><figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by <a href="https://www.flickr.com/photos/davesoldano/8572429635">Dave Soldano</a>.</figcaption> 
+    </figure>
+    <figure>
+      <img src="images/screenshots/SolarCar.png" width="100%" /><figcaption>"Sunrise in Eastern Colorado" by <a href="https://www.flickr.com/photos/35528040@N04/6673031153">Pam Morris</a>.</figcaption> 
+    </figure>
+</div>
+-->
       <!-- / END HOME SECTION  -->
       <section class="experience" id="experience"></section>
       <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840

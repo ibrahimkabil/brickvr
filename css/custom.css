@@ -11,7 +11,7 @@ h2{ font-weight:300; font-family:Lato; }
     transition:.3s;
 }
 .vegas-background{
-    display:none !important;
+   /* display:none !important;*/
 }
 .profile-pic:hover{
     border: 5px solid #78a7f0;
