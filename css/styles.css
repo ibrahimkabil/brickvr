@@ -773,7 +773,10 @@ width: -webkit-calc(100% / 2);
 .about-us {
 	background: #272727;
 	color: #FFF;
-	padding-bottom: 100px;
+	padding: 60px 0px 100px 0px;
+}
+.about-us h2 {
+	padding-bottom: 20px;
 }
 .about-us .big-intro {
 	text-align: right;
@@ -789,6 +792,25 @@ width: -webkit-calc(100% / 2);
 .about-us .column {
 	margin-bottom: 78px;
 }
+
+.about-us .text-container {
+	margin: 0 5%;
+	font-size: 20px;
+	height: 10em;
+    overflow: scroll;
+}
+
+.about-us .text-container::after {
+	content: "";
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: -9%;
+    left: 0;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(39, 39, 39) 100%);
+    background: linear-gradient(bottom, rgba(255, 255, 255, 0) 100%, rgb(39, 39, 39) 100%);
+}
+
 /*--SKILLS --*/
 .skills {
 	text-align: left;

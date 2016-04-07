@@ -124,6 +124,9 @@
                         <a href="#portfolio">VR Portfolio</a>
                      </li>
                      <li>
+                        <a href="#about-us">About Us</a>
+                     </li>
+                     <li>
                         <a href="#experience">Experience</a>
                      </li>
                      <li>
@@ -161,6 +164,21 @@
 </div>
 -->
       <!-- / END HOME SECTION  -->
+      <section class="about-us" id="about-us">
+      <div class="wow fadeInUp animated animated">
+         <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
+         <div class="text-container">
+            <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
+            <br>
+            <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
+            <br>
+            <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
+            <br>
+            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. Were also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
+            <br>
+            <br>
+         </div>
+      </section>
       <section class="experience" id="experience"></section>
       <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840
          <? } else { ?>850<? } ?>px;'>
