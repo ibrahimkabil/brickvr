@@ -72,7 +72,7 @@
            
 	    <?php }else{ ?>
 	   
-	    .header{ min-height: 745px !important; } 
+	    .header{ min-height: 650px !important; } 
 	   
 		<?php } ?>
          
