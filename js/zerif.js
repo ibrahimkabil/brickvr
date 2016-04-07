@@ -2,7 +2,7 @@
 ===  BACKGROUND SLIDER        ====
 ================================= */
 $.vegas('slideshow', {
-  delay:7000,
+  delay:6000,
   backgrounds:[
     { src:'images/backgrounds/bg0.jpg', fade:1000 },
 	{ src:'images/backgrounds/bg3.jpg', fade:1000 },

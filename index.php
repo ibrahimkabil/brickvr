@@ -53,25 +53,31 @@
       <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
       <style>
          <?php if ($mobile == 1) { ?>
+         
          .wow {
-         visibility: visible !important;
-         -webkit-animation: none !important;
-         -moz-animation: none !important;
-         -o-animation: none !important;
-         -ms-animation: none !important;
-         animation: none !important;
+         	visibility: visible !important;
+         	-webkit-animation: none !important;
+         	-moz-animation: none !important;
+         	-o-animation: none !important;
+         	-ms-animation: none !important;
+         	animation: none !important;
          }   
+         
          h2{
-         font-size:26px !important;
-         line-height: 25px !important;
+         	font-size:26px !important;
+         	line-height: 25px !important;
          }      
-        
-         <?php } ?>
-         body{ background-image:url(images/grid-bg.jpg);  <?php if ($mobile != 1) { ?>background-size:cover;<?php } ?> background-attachment:fixed; }
+    	 
+    	.header{ min-height: 445px !important; } 
+           
+	    <?php }else{ ?>
+	   
+	    .header{ min-height: 745px !important; } 
+	   
+		<?php } ?>
+         
+        body{ background-image:url(images/grid-bg.jpg);  <?php if ($mobile != 1) { ?>background-size:cover;<?php } ?> background-attachment:fixed; }
      
-     	 .portfolioItem{ -webkit-box-shadow: 9px 10px 24px -8px rgba(0,0,0,0.36);
-		 -moz-box-shadow: 9px 10px 24px -8px rgba(0,0,0,0.36);
-		 box-shadow: 9px 10px 24px -8px rgba(0,0,0,0.36); }
      
       </style>
    </head>
@@ -86,33 +92,6 @@
          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=525035370959811";
          fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
-      </script>
-      
-      <script>
-    
-    /*
-    	$(function() {
- 			var opts = {
-            //auto-advancing slides? accepts boolean (true/false) or object
-            auto : { 
-                // speed to advance slides at. accepts number of milliseconds
-                speed : 2500, 
-                // pause advancing on mouseover? accepts boolean
-                pauseOnHover : true 
-            },
-            // show fullscreen toggle? accepts boolean
-            fullScreen : true, 
-            // support swiping on touch devices? accepts boolean, requires hammer.js
-            swipe : true 
-        };
-
-			makeBSS('.vr-slideshow', opts);
-			console.log('intialized slideshow');
-		
-		});
-		
-		*/
-      
       </script>
       
       <!-- =========================
@@ -158,11 +137,7 @@
          <section class="portfolio" id="portfolio" ></section>
          <!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
          <div class="container" style='position:relative;z-index:1000; margin-bottom:20px;'>
-            <?php
-               if ($mobile == 1) {
-                   //echo '<br><br><br><img src="images/background.jpg" width="100%">';
-               }
-               ?><br><br>
+           <br><br>
             <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none; color:#FFFFFF;'></h2>
             <br>
             
@@ -388,15 +363,6 @@
       <script src="js/smoothscroll.js"></script>
       <script src="js/jquery.vegas.min.js"></script>
       <script src="js/zerif.js"></script>
-      <?php if ($mobile != 1) { ?>
-      <!-- 
-         <video autoplay loop id="bgvid" muted>
-             <source src="video-background.webm" type="video/mp4">
-             <source src="video-background.mp4" type="video/mp4">
-         </video>  
-         
-         -->
-      <?php } ?>
       <script src="https://apis.google.com/js/platform.js" async defer></script>
    </body>
 </html>
