@@ -64,7 +64,7 @@
          }   
          
          h2{
-         	font-size:26px !important;
+         	font-size:30px !important;
          	line-height: 25px !important;
          }      
     	 
@@ -76,7 +76,7 @@
 	   
 		<?php } ?>
          
-        body{ background-image:url(images/grid-bg.jpg);  <?php if ($mobile != 1) { ?>background-size:cover;<?php } ?> background-attachment:fixed; }
+        body{ /*background-image:url(images/grid-bg.jpg);*/  <?php if ($mobile != 1) { ?>background-size:cover;<?php } ?> background-attachment:fixed; }
      
      
       </style>
@@ -124,6 +124,9 @@
                         <a href="#portfolio">VR Portfolio</a>
                      </li>
                      <li>
+                        <a href="#about-us">About Us</a>
+                     </li>
+                     <li>
                         <a href="#experience">Experience</a>
                      </li>
                      <li>
@@ -161,6 +164,21 @@
 </div>
 -->
       <!-- / END HOME SECTION  -->
+      <section class="about-us" id="about-us">
+      <div class="wow fadeInUp animated animated">
+         <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
+         <div class="text-container">
+            <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
+            <br>
+            <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
+            <br>
+            <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
+            <br>
+            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. Were also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
+            <br>
+            <br>
+         </div>
+      </section>
       <section class="experience" id="experience"></section>
       <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840
          <? } else { ?>850<? } ?>px;'>
@@ -170,23 +188,23 @@
       <center>  
       <?php if ($mobile == 1) { ?>
       <center>
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Hardware Experience</h2>
+      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
       <br>
       <br>
       <center>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=100% style='float:left'></a>     <br clear='all'>    <br clear='all'>     <br clear='all'>                  
+      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=100% style='margin-left: 40px; float:left; height: 17em; width: 70%;'></a>     <br clear='all'>    <br clear='all'>     <br clear='all'>                  
       <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width=210 src='images/samsung_gear_vr.jpg' style='float:left; margin-left:40px;'></a><br><br>     
       <a href='https://www.google.com/get/cardboard/' target='_blank'><img width=230 src='images/google_cardboard.jpg' style='float:left; margin-left:25px;'></a>
+      <a href='https://www.htcvive.com/us/' target='_blank'><img width=230 src='images/htc_vive.png' style='float:left; margin-left:25px;'></a>
       </center>
       </div>
       <br clear='all'>
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-bottom:20px; margin-top:50px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Software Experience</h2>
       <br clear='all'>
       <div style="font-size:14px; line-height:37px; text-align:left; float:left;"><ul>
       <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows and Android experience </li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
       <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
       <li>&#8226; Dynamic 3D model driven experiences </li>
       <li>&#8226; Particle effects, physics and modern game engine features</li>
@@ -212,24 +230,24 @@
       <center>
       <div style='width:1020px'>
       <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Hardware Experience</h2>
+      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
       <br>
       <br>
       <div style='margin-left:20px;'>
       <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' style='float:left'></a>                        
-      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung_gear_vr.jpg' style='float:left; margin-left:30px;'></a>
-      <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google_cardboard.jpg' style='float:left; margin-left:30px;'></a>
+      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung_gear_vr.jpg' style='float:left;'></a>
+      <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google_cardboard.jpg' style='float:left;'></a>
+      <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' style='float:left;'></a>
       </div>
       </div>
       <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
       <br clear='all'>
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-bottom:20px; margin-top:50px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Software Experience</h2>
       <br clear='all'>
       <div style="font-size:20px; line-height:37px; text-align:left; width:650px; float:left;"><ul>
       <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
       <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows and Android experience </li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
       <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
       <li>&#8226; Dynamic 3D model driven experiences </li>
       <li>&#8226; Particle effects, physics and modern game engine features</li>
@@ -251,7 +269,23 @@
       </center>
       </div>
       </section>
-      <section class="contact-us" id="contact" style='background:rgba(0,0,0,.8); position:relative; z-index:50;'>
+      <section id="vr-player" class="vr-player wow fadeInUp animated">
+         <?php if ($mobile == 1) { ?>
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>Brick Simple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
+            <img src='images/VR_Player.png' style='width: 100%; margin-bottom: 2em;'>
+            <div class="text-container">
+               <p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
+            </div>
+         <?php } else { ?>
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>Brick Simple White Label <span style="color: #DF0808;">VR Player</span></h2>
+            <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'>
+            <div class="text-container">
+               <p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
+            </div>
+         <? } ?>
+      </section>
+      
+      <section class="contact-us" style='display:none; background:rgba(0,0,0,.8); position:relative; z-index:50;'>
          <div class="container">
             <!-- SECTION HEADER -->
             <div class="section-header">
@@ -312,45 +346,48 @@
       <!-- =========================
          FOOTER             
          ============================== -->
-      <footer style='position:relative; z-index:500; background-color:#000000;'>
+      <footer id="contact" class="dark-text wow fadeInUp animated" style='position:relative; z-index:500;'>
+      <?php if ($mobile == 1) { ?>
+         <div class="container mobile">
+         <div class="section-header">
+               <!-- SECTION TITLE -->
+               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
+            </div>
+         <center>
+            <div class="row contact">
+              <div class="column"><div class="caption">Give us a call</div><a id="call-us" href="tel:+2152491940">215.249.1940</a></div>
+              <div class="column"><div class="caption">Work with us</div><a>projects@bricksimple.com</a></div>
+              <div class="column"><div class="caption">Work for us</div><a>jobs@bricksimple.com</a></div>
+            </div>
+            <div id="address-wrapper" class="row contact">
+              <div class="column"><div class="caption">East Coast</div><a id="east-link" href="https://www.google.com/maps/place/Brick+Simple+LLC/@40.3093762,-75.1305716,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6a822130829e9:0x7cc801f0ab27eb97" target="_blank">BrickSimple<br> 22 S Main St Suite 225<br> Doylestown, PA 18901</a></div>
+              <div class="column"><div class="caption">West Coast</div><a id="west-link" href="https://www.google.com/maps/place/Innovation+Hangar/@37.8037879,-122.4488872,17z/data=!3m1!4b1!4m2!3m1!1s0x808586d4e40e90f1:0xa182534413cb67e4" target="_blank">BrickSimple<br> The Innovation Hangar<br> 3601 Lyon Street<br> San Francisco, CA 94123</a></div>
+            </div>
+            <div class="row footer">
+              <div id="copyright" class="nine columns u-pull-right">Copyright © 2016 BrickSimple LLC. All Rights Reserved</div>
+            </div>
+            <center>
+         </div>
+      <?php } else { ?>
          <div class="container">
-            <!-- COMPANY ADDRESS-->
-            <div class="col-md-4 company-details">
-               <div class="icon-top red-text">
-                  <i class="icon-fontawesome-webfont-302"></i>
-               </div>
-               3601 Lyon Street<br>
-               San Francisco, CA 94123
+            <div class="section-header">
+               <!-- SECTION TITLE -->
+               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
             </div>
-            <!-- COMPANY EMAIL-->
-            <div class="col-md-4 company-details">
-               <div class="icon-top green-text">
-                  <i class="icon-fontawesome-webfont-329"></i>
-               </div>
-               <a href='mailto:det@bricksimple.com' style='color:#939393;'>
-                  E-mail Us
+            <div class="row contact">
+              <div class="one-third column"><div class="caption">Give us a call</div><a id="call-us" href="tel:+2152491940">215.249.1940</a></div>
+              <div class="one-third column"><div class="caption">Work with us</div><a>projects@bricksimple.com</a></div>
+              <div class="one-third column"><div class="caption">Work for us</div><a>jobs@bricksimple.com</a></div>
             </div>
-            <div class="col-lg-3 col-sm-6 copyright">
-            <ul class="social" style='margin-top:10px;'>
-            <i><div style='margin-left:45px; margin-right:50px; width:30px; float:left;'><div  class="fb-share-button" data-href="http://www.bricksimple.com/" data-layout="button_count"></div></div></i>
-            <i><div style='margin-top:5px; width:100px; float:left; margin-left:10px; margin-bottom:8px;'>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bricksimple.com" data-text="Brick Simple Virtual Reality" data-via="bricksimple">Tweet</a></div>
-            <script>!function(d, s, id) {
-               var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-               if (!d.getElementById(id)) {
-                   js = d.createElement(s);
-                   js.id = id;
-                   js.src = p + '://platform.twitter.com/widgets.js';
-                   fjs.parentNode.insertBefore(js, fjs);
-               }
-               }(document, 'script', 'twitter-wjs');
-            </script></i>
-            <i><!-- Place this tag in your head or just before your close body tag. -->
-            <!-- Place this tag where you want the +1 button to render. -->
-            <br clear='all'><div style='margin-left:30px;'><div  class="g-plusone" data-size="medium" data-href="http://bricksimple.com"></div></div></i>
-            </ul>
+            <div id="address-wrapper" class="row contact">
+              <div class="one-half column"><div class="caption">East Coast</div><a id="east-link" href="https://www.google.com/maps/place/Brick+Simple+LLC/@40.3093762,-75.1305716,17z/data=!3m1!4b1!4m2!3m1!1s0x89c6a822130829e9:0x7cc801f0ab27eb97" target="_blank">BrickSimple<br> 22 S Main St Suite 225<br> Doylestown, PA 18901</a></div>
+              <div class="one-half column"><div class="caption">West Coast</div><a id="west-link" href="https://www.google.com/maps/place/Innovation+Hangar/@37.8037879,-122.4488872,17z/data=!3m1!4b1!4m2!3m1!1s0x808586d4e40e90f1:0xa182534413cb67e4" target="_blank">BrickSimple<br> The Innovation Hangar<br> 3601 Lyon Street<br> San Francisco, CA 94123</a></div>
+            </div>
+            <div class="row footer">
+              <div id="copyright" class="nine columns u-pull-right">Copyright © 2016 BrickSimple LLC. All Rights Reserved</div>
             </div>
          </div>
+      <? } ?>
          <!-- / END CONTAINER -->
       </footer>
       <!-- / END FOOOTER  -->
