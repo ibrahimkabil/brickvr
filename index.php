@@ -120,7 +120,7 @@
 					 speed: 1000,
 					 pause: 3000,
 					 auto: true,
-					 preload: 'hidden',
+					 preload: 'visible',
 					 autoHover: false
 				});
 				
@@ -179,7 +179,7 @@
 			<article class="slideshow-block">
 				
 			<ul id="slideshow">
-				<li><img src="images/screenshots/Logo.jpg"></li>
+				<!-- <li><img src="images/screenshots/Logo.jpg"></li> -->
 				<li><img src="images/screenshots/Sentinel.jpg"></li>
 				<li><img src="images/screenshots/Panasonic.jpg"></li>
 				<li><img src="images/screenshots/Porsche.jpg"></li>
@@ -222,10 +222,10 @@
       <br>
       <br>
       <center>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=100% style='margin-left: 40px; float:left; height: 17em; width: 70%;'></a>     <br clear='all'>    <br clear='all'>     <br clear='all'>                  
-      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width=210 src='images/samsung_gear_vr.jpg' style='float:left; margin-left:40px;'></a><br><br>     
-      <a href='https://www.google.com/get/cardboard/' target='_blank'><img width=230 src='images/google_cardboard.jpg' style='float:left; margin-left:25px;'></a>
-      <a href='https://www.htcvive.com/us/' target='_blank'><img width=230 src='images/htc_vive.png' style='float:left; margin-left:25px;'></a>
+      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>                         
+      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'> 
+      <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png' style='float:left;></a><br clear='all'><br clear='all'><br clear='all'>
+      <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png' style='float:left;'></a>
       </center>
       </div>
       <br clear='all'>
@@ -263,11 +263,11 @@
       <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
       <br>
       <br>
-      <div style='margin-left:20px;'>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' style='float:left'></a>                        
-      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung_gear_vr.jpg' style='float:left;'></a>
-      <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google_cardboard.jpg' style='float:left;'></a>
-      <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' style='float:left;'></a>
+      <div style='margin-left:0px;'>
+      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240 style='float:left'></a>                        
+      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240 style='float:left;'></a>
+      <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240 style='float:left;'></a>
+      <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240 style='float:left;'></a>
       </div>
       </div>
       <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
