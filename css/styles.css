@@ -458,7 +458,7 @@ input:focus {
 	height: 2px;
 	background: #78a7f0;
 	bottom: 0px;
-	left: 12.5%;
+	left: 0;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #78a7f0;
@@ -800,7 +800,7 @@ width: -webkit-calc(100% / 2);
 .about-us .text-container {
 	margin: 0 5%;
 	font-size: 20px;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 /*.about-us .text-container::after {
@@ -1536,10 +1536,18 @@ footer .contact a {
     font-size: 1.5em;
 }
 
+
+
 .one-third.column {
 	width:33%;
 	display:inline-block;
 	margin: 1em 0;
+}
+
+@media screen and (max-width: 700px) {
+	.one-third.column {
+		width: 50%;
+	}
 }
 
 .one-half.column {
@@ -1549,4 +1557,49 @@ footer .contact a {
 	vertical-align: text-top;
 }
 
+.headsetContainer {
+	width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;}
+
+.headsetContainer a {
+	display: inline;
+}
+
+.headsetGroup {
+	display:inline-block;
+}
+
+.headsetContainer a img {
+	/*float:left;*/
+}
+
+.expList {
+	font-size:20px; 
+	line-height:2.4em; 
+	text-align:left; 
+	width:650px;
+	display:inline-block;
+}
+
+.logoContainer { 
+	width:220px;
+	display:inline-block;
+}
+
+@media screen and (max-width: 680px) {
+	.expList {
+		width: 100%;
+	}
+}
+
+.VRPlayerIMG {
+	background-image: url('/images/VR_Player.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 26em;
+    width: 100%;
+}
 
