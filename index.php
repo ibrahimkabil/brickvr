@@ -151,7 +151,7 @@
                   <span class="icon-bar"></span>
                   </button>
                   <div class="navbar-brand">
-                     <a href="#home"><img src="images/logo.png" alt="" style='margin-top:-20px;' ></a>
+                     <a href="http://bricksimple.com/"><img src="images/logo.png" alt="" style='margin-top:-20px;' ></a>
                   </div>
                </div>
                <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
@@ -164,6 +164,9 @@
                      </li>
                      <li>
                         <a href="#experience">Experience</a>
+                     </li>
+                     <li>
+                        <a href="#vr-player">VR Player</a>
                      </li>
                      <li>
                         <a href="#contact">Contact</a>
@@ -210,45 +213,46 @@
          </div>
       </section>
       <section class="experience" id="experience"></section>
-      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840
-         <? } else { ?>850<? } ?>px;'>
+      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840px
+         <? } else { ?>inherit<? } ?>;'>
       <div class="container" style='width:100%; text-align: left; '>
       <!-- SECTION HEADER -->
       <div class="section-header" style=' text-align: center;'>
       <center>  
       <?php if ($mobile == 1) { ?>
       <center>
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
-      <br>
-      <br>
-      <center>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>                         
-      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'> 
-      <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png' style='float:left;></a><br clear='all'><br clear='all'><br clear='all'>
-      <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png' style='float:left;'></a>
-      </center>
+         <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
+         <br>
+         <br>
+         <center>
+            <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>                  
+            <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'> 
+            <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>
+            <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png' style='float:left;'></a> 
+         </center>
       </div>
       <br clear='all'>
       <br clear='all'>
-      <div style="font-size:14px; <?php if ($mobile == 1) { ?>margin-left:18px; line-height:24px; font-size: 20px;<? }else{ ?>line-height:37px; font-size: 14px;<? } ?>; text-align:left; float:left;"><ul>
-      <li class='bullet'>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-      <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-      <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-      <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-      <li class='bullet'>&#8226; Real-world photosphere-driven experiences with navigation</li>
-      <li class='bullet'>&#8226; Dynamic 3D model driven experiences </li>
-      <li class='bullet'>&#8226; Particle effects, physics and modern game engine features</li>
-      </ul>        
+      <div style="font-size:14px; <?php if ($mobile == 1) { ?>margin-left:18px; line-height:24px; font-size: 20px;<? }else{ ?>line-height:37px; font-size: 14px;<? } ?>; text-align:left; float:left;">
+         <ul>
+            <li class='bullet'>&#8226; Full stack of in-house talent to realize VR experiences. </li>
+            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
+            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
+            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
+            <li class='bullet'>&#8226; Real-world photosphere-driven experiences with navigation</li>
+            <li class='bullet'>&#8226; Dynamic 3D model driven experiences </li>
+            <li class='bullet'>&#8226; Particle effects, physics and modern game engine features</li>
+         </ul>        
       </div>  
       <br clear='all'>
       <br clear='all'>
       <center>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg' style='margin-top:-40px;'></a>
-      <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
-      <br clear='all'> 
-      <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-      <br clear='all'>
-      <br clear='all'>                                       
+         <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg' style='margin-top:-40px;'></a>
+         <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
+         <br clear='all'> 
+         <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
+         <br clear='all'>
+         <br clear='all'>                                       
       </center>
       <br clear='all'>
       <br>
@@ -258,39 +262,44 @@
       </center>
       <?php } else { ?>
       <center>
-      <div style='width:1020px'>
-      <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
-      <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
-      <br>
-      <br>
-      <div style='margin-left:0px;'>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240 style='float:left'></a>                        
-      <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240 style='float:left;'></a>
-      <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240 style='float:left;'></a>
-      <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240 style='float:left;'></a>
-      </div>
-      </div>
-      <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
-      <br clear='all'>
-      <br clear='all'>
-      <div style="font-size:20px; line-height:37px; text-align:left; width:650px; float:left;"><ul>
-      <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-      <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
-      <li>&#8226; Dynamic 3D model driven experiences </li>
-      <li>&#8226; Particle effects, physics and modern game engine features</li>
-      </ul>        
-      </div>  
-      <div style='float:right; width:220px;'>
-      <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg' style='margin-top:-40px;'></a>
-      <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
-      <br clear='all'>   
-      <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-      <br clear='all'><br clear='all'>                                       
-      </div><br clear='all'><br>
-      </div>
+         <div style='width:100%'>
+            <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
+               <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Platform Experience</h2><br><br>
+               <div class="headsetContainer">
+                  <div class="headsetGroup">
+                     <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240></a>
+                     <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240></a>
+                  </div>
+                  <div class="headsetGroup">
+                     <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240></a>
+                     <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240></a> 
+                  </div>
+               </div>
+            </div>
+         <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
+            <br clear='all'>
+            <br clear='all'>
+            <div class="expList">
+               <ul>
+                  <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
+                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
+                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
+                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
+                  <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
+                  <li>&#8226; Dynamic 3D model driven experiences </li>
+                  <li>&#8226; Particle effects, physics and modern game engine features</li>
+               </ul>        
+            </div>  
+            <div class="logoContainer">
+               <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg'></a>
+               <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
+               <br clear='all'>   
+               <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
+               <br clear='all'>
+               <br clear='all'>
+            </div>
+            <br clear='all'><br>
+         </div>
       </div>
       </div>
       </center>
@@ -308,7 +317,8 @@
             </div>
          <?php } else { ?>
             <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>Brick Simple White Label <span style="color: #DF0808;">VR Player</span></h2>
-            <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'>
+            <div class="VRPlayerIMG"></div>
+            <!-- <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'> -->
             <div class="text-container">
                <p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
             </div>
