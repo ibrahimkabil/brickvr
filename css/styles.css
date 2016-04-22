@@ -1546,7 +1546,7 @@ footer .contact a {
 
 @media screen and (max-width: 700px) {
 	.one-third.column {
-		width: 50%;
+		width: 80%;
 	}
 }
 
@@ -1595,7 +1595,7 @@ footer .contact a {
 }
 
 .VRPlayerIMG {
-	background-image: url('/images/VR_Player.png');
+	background-image: url('../images/VR_Player.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

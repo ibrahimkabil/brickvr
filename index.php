@@ -45,7 +45,25 @@
       
       <!-- JQUERY -->
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="images/favicon.ico">
       
+      <!-- GOOGLE ANALYTICS -->
+      <script type="text/javascript">
+
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-21680160-1']);
+         _gaq.push(['_trackPageview']);
+
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+      </script>
+
       <!-- for Facebook -->          
       <meta property="og:title" content="Brick Simple Virtual Reality" />
       <meta property="og:type" content="website" />
@@ -437,7 +455,7 @@
       <script src="js/jquery.nav.js"></script>
       <script src="js/jquery.knob.js"></script>
       <script src="js/owl.carousel.min.js"></script>
-      <script src="js/smoothscroll.js"></script>
+      <!-- <script src="js/smoothscroll.js"></script> -->
       <script src="js/jquery.vegas.min.js"></script>
       <script src="js/zerif.js"></script>
       <script src="https://apis.google.com/js/platform.js" async defer></script>
