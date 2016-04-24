@@ -231,8 +231,7 @@
          </div>
       </section>
       <section class="experience" id="experience"></section>
-      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:<?php if ($mobile == 1) { ?>840px
-         <? } else { ?>inherit<? } ?>;'>
+      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
       <div class="container" style='width:100%; text-align: left; '>
       <!-- SECTION HEADER -->
       <div class="section-header" style=' text-align: center;'>
@@ -326,6 +325,7 @@
       </center>
       </div>
       </section>
+
       <section id="vr-player" class="vr-player wow fadeInUp animated">
          <?php if ($mobile == 1) { ?>
             <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>Brick Simple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
