@@ -423,7 +423,9 @@ input:focus {
 }
 #main-nav.fixed {
 	position: fixed !important;
-	top: 0;
+    top: 0;
+    right: 0;
+    width: 96%;
 }
 .navbar-inverse .navbar-nav>li {
 	display: inline;
@@ -771,7 +773,6 @@ width: -webkit-calc(100% / 2);
  **   SHARED SCTION STYES           -----
 -----------------------------------------*/
 
-.vr-player h2,
 .about-us h2,
 .experience h2 {
 	padding-bottom: 20px;
@@ -784,14 +785,17 @@ width: -webkit-calc(100% / 2);
 }
 
 .vr-player .text-container,
-.about-us .text-container {
+.about-us .text-container,
+.experience .text-container {
 	/*margin: 0 5%;*/
 	font-size: 20px;
     /*overflow: scroll;*/
 }
 
 section .section-container {
-	margin: 10%;
+	margin: 0 10%;
+	padding: 2em 0;
+	color:white;
 }
 
 /*---------------------------------------
@@ -828,15 +832,48 @@ section .section-container {
 -----------------------------------------*/
 
 .video {
-
+	color: white;
 }
 
 .video div {
-
+	height: 32em;
 }
 
 .video iframe {
 
+}
+
+/*---------------------------------------
+ **   SECTION:  EXPERIANCE          -----
+-----------------------------------------*/
+
+.experience .container{
+	margin:10%;
+}
+
+.experience .logoContainer a {
+	width: 32%;
+    height: 10em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+}
+
+.experience .logoContainer a.unity {
+	background-image: url("../images/unity_logo.jpg");
+}
+.experience .logoContainer a.unreal {
+	background-image: url("../images/unreal.jpg");
+}
+.experience .logoContainer a.oculus {
+	background-image: url("../images/oculus_vr_logo.jpg");
+}
+
+.experience .logoContainer { 
+	display:inline-block;
+	width: 100%;
+	margin: 2em 0;
 }
 
 /*---------------------------------------
@@ -847,6 +884,9 @@ section .section-container {
 	background: #272727;
 }
 
+.vr-player h2 {
+	padding-bottom: 20px;
+}
 
 .vr-player p {
 	text-align: left;
@@ -1331,10 +1371,6 @@ footer .contact a {
 	display:inline-block;
 }
 
-.logoContainer { 
-	display:inline-block;
-}
-
 @media screen and (max-width: 680px) {
 	.expList {
 		width: 100%;
@@ -1350,3 +1386,37 @@ footer .contact a {
     width: 100%;
 }
 
+/* LOGO */
+
+.VRLogo {
+	height: 9.6em;
+    width: 36em;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+    position: fixed;
+    background-image: url('../images/logoCombined.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	.navbar-brand {
+		display: inherit !important;
+	}
+
+	.VRLogo {
+		display: none;
+	}
+}
+
+
+.navbar-brand {
+	display:none;
+	padding: 0.7em 1em 1em 10em;
+}
+
+#main-nav .container {
+
+}

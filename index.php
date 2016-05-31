@@ -159,6 +159,7 @@
          ============================== -->
       <header id="home" class="header">
          <!-- TOP BAR -->
+         <div class="VRLogo"></div>
          <div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
             <div class="container">
                <div class="navbar-header responsive-logo">
@@ -169,7 +170,7 @@
                   <span class="icon-bar"></span>
                   </button>
                   <div class="navbar-brand">
-                     <a href="http://bricksimple.com/"><img src="images/logo.png" alt="" style='margin-top:-20px;' ></a>
+                     <a href="http://bricksimple.com/"><img id="logo" src="images/VR_WhiteTxt.png" alt="" style='' ></a>
                   </div>
                </div>
                <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
@@ -226,112 +227,49 @@
 		
       <!-- / END HOME SECTION  -->
       <section class="about-us" id="about-us">
-      <div class="section-container wow fadeInUp animated animated">
-         <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
-         <div class="text-container">
-            <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
-            <!-- <br>
-            <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
-            <br>
-            <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
-            <br>
-            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We're also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p> -->
-            <br>
-            <br>
+         <div class="section-container wow fadeInUp animated animated">
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
+            <div class="text-container">
+               <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
+               <!-- <br>
+               <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
+               <br>
+               <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
+               <br>
+               <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We're also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p> -->
+            </div>
          </div>
       </section>
       <section class="video">
-         <div class="wow fadeInUp animated animated">
+         <div class="section-container wow fadeInUp animated animated">
             <h2>! -- VIDEO GOES HERE -- !</h2>
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J6fMnXflbuk?list=PLXNR5AJ115MaqIP-2M_3PxcyEMFt2Psx7" frameborder="0" allowfullscreen></iframe> -->
          </div>
       </section>
       <section class="experience" id="experience" style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
-      <div class="container" style='width:100%; text-align: left; '>
+      <div class="section-container" style='; text-align: left; '>
       <!-- SECTION HEADER -->
-      <div class="section-header" style=' text-align: center;'>
-      <center>  
       <?php if ($mobile == 1) { ?>
-      <center>
-         <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
-         <br>
-         <br>
-         <center>
-            <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>                  
-            <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'> 
-            <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>
-            <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png' style='float:left;'></a> 
-         </center>
-      </div>
-      <br clear='all'>
-      <br clear='all'>
-      <div style="font-size:14px; <?php if ($mobile == 1) { ?>margin-left:18px; line-height:24px; font-size: 20px;<? }else{ ?>line-height:37px; font-size: 14px;<? } ?>; text-align:left; float:left;">
-         <ul>
-            <li class='bullet'>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-            <li class='bullet'>&#8226; Real-world photosphere-driven experiences with navigation</li>
-            <li class='bullet'>&#8226; Dynamic 3D model driven experiences </li>
-            <li class='bullet'>&#8226; Particle effects, physics and modern game engine features</li>
-         </ul>        
-      </div>  
-      <br clear='all'>      <br clear='all'>
-      <br clear='all'>
-      <center>
-         <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg' style='margin-top:-40px;'></a>
-         <br clear='all'><br clear='all'> <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
-
-         <br clear='all'> <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-         <br clear='all'>
-                                       
-      </center>
-      <br clear='all'>
-      <br>
-      </div>
-      </div>
-      </div>
-      </center>
+      
       <?php } else { ?>
-         <div style='width:100%'>
-            <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
-               <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Working Experience</h2><br><br>
-               <div class="logoContainer">
-                  <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180'>   </a>   
-                  <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110'></a>
-                  <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg'></a>
-               </div>
+            <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Working Experience</h2><br>
+            <div class="text-container">
+               <p class="dark-text">Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering.</p>
             </div>
-         <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
-            <br clear='all'>
-            <br clear='all'>
-            <div class="headsetContainer">
-               <div class="headsetGroup">
-                  <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240></a>
-                  <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240></a>
-               </div>
-               <div class="headsetGroup">
-                  <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240></a>
-                  <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240></a> 
-               </div>
+            <div class="logoContainer">
+               <a class="unity" href='https://www.unity3d.com' target='_blank'></a>   
+               <a class="unreal" href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'></a>
+               <a class="oculus" href='https://www.oculus.com/en-us/' target='_blank'></a>
             </div>
-            <div class="expList">
-               <ul>
-                  <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-                  <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
-                  <li>&#8226; Dynamic 3D model driven experiences </li>
-                  <li>&#8226; Particle effects, physics and modern game engine features</li>
-               </ul>        
-            </div>  
-            <br clear='all'><br>
+            <br>
+            <div class="text-container">
+               <p class="dark-text">VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
+               <br>
+               <p class="dark-text">AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We’re also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
+            </div>
+
          </div>
-      </div>
-      <br>
       <? } ?>
-      </center>
       </div>
       </section>
 
