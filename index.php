@@ -205,6 +205,16 @@
 				<li><img src="images/screenshots/Panasonic.jpg"></li>
 				<li><img src="images/screenshots/Porsche.jpg"></li>
 				<li><img src="images/screenshots/NSquared.jpg"></li>
+            <li><img src="images/screenshots/Bowling1.png"></li>
+            <li><img src="images/screenshots/Dodgeball.png"></li>
+            <li><img src="images/screenshots/Porsche1.png"></li>
+            <li><img src="images/screenshots/Porsche2.png"></li>
+            <li><img src="images/screenshots/PLCB1.png"></li>
+            <li><img src="images/screenshots/PLCB2.png"></li>
+            <li><img src="images/screenshots/TE1.png"></li>
+            <li><img src="images/screenshots/TE2.png"></li>
+            <li><img src="images/screenshots/detailer1.png"></li>
+            <li><img src="images/screenshots/detailer2.png"></li>
 			</ul>
 			
 			</article>
@@ -216,22 +226,27 @@
 		
       <!-- / END HOME SECTION  -->
       <section class="about-us" id="about-us">
-      <div class="wow fadeInUp animated animated">
+      <div class="section-container wow fadeInUp animated animated">
          <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
          <div class="text-container">
             <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
-            <br>
+            <!-- <br>
             <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
             <br>
             <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
             <br>
-            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We're also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
+            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We're also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p> -->
             <br>
             <br>
          </div>
       </section>
-      <section class="experience" id="experience"></section>
-      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
+      <section class="video">
+         <div class="wow fadeInUp animated animated">
+            <h2>! -- VIDEO GOES HERE -- !</h2>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J6fMnXflbuk?list=PLXNR5AJ115MaqIP-2M_3PxcyEMFt2Psx7" frameborder="0" allowfullscreen></iframe> -->
+         </div>
+      </section>
+      <section class="experience" id="experience" style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
       <div class="container" style='width:100%; text-align: left; '>
       <!-- SECTION HEADER -->
       <div class="section-header" style=' text-align: center;'>
@@ -278,24 +293,28 @@
       </div>
       </center>
       <?php } else { ?>
-      <center>
          <div style='width:100%'>
             <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
-               <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Platform Experience</h2><br><br>
-               <div class="headsetContainer">
-                  <div class="headsetGroup">
-                     <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240></a>
-                     <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240></a>
-                  </div>
-                  <div class="headsetGroup">
-                     <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240></a>
-                     <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240></a> 
-                  </div>
+               <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Working Experience</h2><br><br>
+               <div class="logoContainer">
+                  <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180'>   </a>   
+                  <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110'></a>
+                  <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg'></a>
                </div>
             </div>
          <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
             <br clear='all'>
             <br clear='all'>
+            <div class="headsetContainer">
+               <div class="headsetGroup">
+                  <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240></a>
+                  <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240></a>
+               </div>
+               <div class="headsetGroup">
+                  <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240></a>
+                  <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240></a> 
+               </div>
+            </div>
             <div class="expList">
                <ul>
                   <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
@@ -307,26 +326,17 @@
                   <li>&#8226; Particle effects, physics and modern game engine features</li>
                </ul>        
             </div>  
-            <div class="logoContainer">
-               <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg'></a>
-               <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
-               <br clear='all'>   
-               <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-               <br clear='all'>
-               <br clear='all'>
-            </div>
             <br clear='all'><br>
          </div>
       </div>
-      </div>
-      </center>
       <br>
       <? } ?>
       </center>
       </div>
       </section>
 
-      <section id="vr-player" class="vr-player wow fadeInUp animated">
+      <section id="vr-player" class="vr-player wow fadeInUp animated" style='padding-bottom:60px;'>
+         <div class="section-container">
          <?php if ($mobile == 1) { ?>
             <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>Brick Simple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
             <img src='images/VR_Player.png' style='width: 100%; margin-bottom: 2em;'>
@@ -338,9 +348,10 @@
             <div class="VRPlayerIMG"></div>
             <!-- <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'> -->
             <div class="text-container">
-               <p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
+               <br><br><p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
             </div>
          <? } ?>
+         </div>
       </section>
       
       <section class="contact-us" style='display:none; background:rgba(0,0,0,.8); position:relative; z-index:50;'>
