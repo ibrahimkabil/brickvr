@@ -212,11 +212,11 @@
             <li><img src="images/screenshots/Dodgeball.png"></li>
             <li><img src="images/screenshots/Porsche1.png"></li>
             <li><img src="images/screenshots/Porsche2.png"></li>
-            <li><img src="images/screenshots/PLCB1.png"></li>
-            <li><img src="images/screenshots/PLCB2.png"></li>
+            <!-- <li><img src="images/screenshots/PLCB1.png"></li> -->
+            <!-- <li><img src="images/screenshots/PLCB2.png"></li> -->
             <li><img src="images/screenshots/TE1.png"></li>
             <li><img src="images/screenshots/TE2.png"></li>
-            <li><img src="images/screenshots/VRRoxx2.png"></li>
+            <li><img src="images/screenshots/Detailer3.png"></li>
 			</ul>
 			
 			</article>
