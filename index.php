@@ -17,7 +17,9 @@
    <head>
       <meta charset="UTF-8">
       <meta name="author" content="BrickSimple LLC" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+      
       <title>BrickSimple Virtual Reality</title>
       
       <!-- =========================
@@ -107,7 +109,7 @@
      	
      	.header{ padding: 0px !important; }
      	
-     	.slideshow-wrapper{ margin-top:100px; opacity:0; }
+     	.slideshow-wrapper{ margin-top:75px; opacity:0; }
      	
      	.sy-pager{ display:none; }
      	
@@ -214,8 +216,7 @@
             <li><img src="images/screenshots/PLCB2.png"></li>
             <li><img src="images/screenshots/TE1.png"></li>
             <li><img src="images/screenshots/TE2.png"></li>
-            <li><img src="images/screenshots/detailer1.png"></li>
-            <li><img src="images/screenshots/detailer2.png"></li>
+            <li><img src="images/screenshots/VRRoxx2.png"></li>
 			</ul>
 			
 			</article>
@@ -228,7 +229,7 @@
       <!-- / END HOME SECTION  -->
       <section class="about-us" id="about-us">
          <div class="section-container wow fadeInUp animated animated">
-            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
+            <h2 class="white-text">About Us</h2>
             <div class="text-container">
                <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
                <!-- <br>
@@ -247,42 +248,66 @@
          </div>
       </section>
       <section class="experience" id="experience" style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
-      <div class="section-container" style='; text-align: left; '>
-      <!-- SECTION HEADER -->
-      <?php if ($mobile == 1) { ?>
-      
-      <?php } else { ?>
-            <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Working Experience</h2><br>
+         <div class="section-container" style='; text-align: left; '>
+            <h2 class="dark-text">Working Experience</h2><br>
             <div class="text-container">
                <p class="dark-text">Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering.</p>
             </div>
-            <div class="logoContainer">
-               <a class="unity" href='https://www.unity3d.com' target='_blank'></a>   
-               <a class="unreal" href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'></a>
-               <a class="oculus" href='https://www.oculus.com/en-us/' target='_blank'></a>
-            </div>
+            <center>
+               <div class="logoContainer">
+                  <a class="unity" href='https://www.unity3d.com' target='_blank'></a>   
+                  <a class="unreal" href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'></a>
+                  <a class="oculus" href='https://www.oculus.com/en-us/' target='_blank'></a>
+               </div>
+            </center>
             <br>
             <div class="text-container">
                <p class="dark-text">VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
                <br>
                <p class="dark-text">AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We’re also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
             </div>
-
+            <br><br>
+            <div class="headset-container">
+               <center>
+                  <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png'></a>       
+                  <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png'></a>
+                  <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%'></a>
+                  <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png'></a>
+                  <a href='https://www.microsoft.com/microsoft-hololens' target='_blank'><img width='100%' src='images/hololens.png'></a>
+               </center>
+            </div>
+            <h2 class="dark-text">Our Specs</h2><br>
+            <div class="text-container" style="margin-bottom: 10%;">
+               <ul class="dark-text">
+                  <li>Full stack of in-house talent to realize VR experiences:
+                     <ul>
+                        <li>3D artists, animators and modelers</li>
+                        <li>Game developers with formal education (Digipen, Fullsail)</li>
+                        <li>Software developers with deep Windows, iOS, and Android experience</li>
+                     </ul>
+                  </li>
+                  <br>
+                  <li>Real-world photosphere-driven experiences with navigation</li>
+                  <li>Dynamic 3D model driven experiences</li>
+                  <li>Particle effects, physics and modern game engine features</li>
+               </ul>
+               <br>
+               <br>
+               <p class="dark-text">Platforms:<br>HTC Vive, Oculus Rift, Samsung Gear VR, Google Cardboard, Microsoft HoloLens</p>
+            </div>
          </div>
-      <? } ?>
-      </div>
       </section>
 
       <section id="vr-player" class="vr-player wow fadeInUp animated" style='padding-bottom:60px;'>
          <div class="section-container">
          <?php if ($mobile == 1) { ?>
-            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>Brick Simple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>BrickSimple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
             <img src='images/VR_Player.png' style='width: 100%; margin-bottom: 2em;'>
             <div class="text-container">
                <br><p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
             </div>
          <?php } else { ?>
-            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>Brick Simple White Label <span style="color: #DF0808;">VR Player</span></h2>
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>BrickSimple White Label <span style="color: #DF0808;">VR Player</span></h2>
             <div class="VRPlayerIMG"></div>
             <!-- <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'> -->
             <div class="text-container">
