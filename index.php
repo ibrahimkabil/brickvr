@@ -19,7 +19,7 @@
       <meta name="author" content="BrickSimple LLC" />
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
-      
+
       <title>BrickSimple Virtual Reality</title>
       
       <!-- =========================
@@ -247,11 +247,11 @@
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J6fMnXflbuk?list=PLXNR5AJ115MaqIP-2M_3PxcyEMFt2Psx7" frameborder="0" allowfullscreen></iframe> -->
          </div>
       </section>
-      <section class="experience" id="experience" style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
-         <div class="section-container" style='; text-align: left; '>
-            <h2 class="dark-text">Working Experience</h2><br>
+      <section class="experience" id="experience">
+         <div class="section-container">
+            <h2 class="">Working Experience</h2><br>
             <div class="text-container">
-               <p class="dark-text">Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering.</p>
+               <p class="">Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering.</p>
             </div>
             <center>
                <div class="logoContainer">
@@ -262,11 +262,15 @@
             </center>
             <br>
             <div class="text-container">
-               <p class="dark-text">VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
+               <p class="">VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
                <br>
-               <p class="dark-text">AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We’re also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
+               <p class="">AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We’re also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
             </div>
             <br><br>
+         </div>
+      </section>
+      <section class="experience vr" id="vr">
+         <div class="section-container">
             <div class="headset-container">
                <center>
                   <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png'></a>       
@@ -378,12 +382,12 @@
       <!-- =========================
          FOOTER             
          ============================== -->
-      <footer id="contact" class="dark-text wow fadeInUp animated" style='position:relative; z-index:500;'>
+      <footer id="contact" class="wow fadeInUp animated" style='position:relative; z-index:500;'>
       <?php if ($mobile == 1) { ?>
          <div class="container mobile">
          <div class="section-header">
                <!-- SECTION TITLE -->
-               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
+               <h2 style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
             </div>
          <center>
             <div class="row contact">
@@ -404,7 +408,7 @@
          <div class="container">
             <div class="section-header">
                <!-- SECTION TITLE -->
-               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
+               <h2 style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
             </div>
             <div class="row contact">
               <div class="one-third column"><div class="caption">Give us a call</div><a id="call-us" href="tel:+2152491940">215.249.1940</a></div>

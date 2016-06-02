@@ -435,6 +435,9 @@ input:focus {
 	.responsive-nav {
 	    margin-left: 0;
 	}
+	.slideshow-wrapper {
+		margin-top:12em !important;
+	}
 }
 
 @media (max-width: 480px){
@@ -902,6 +905,15 @@ section h2 {
  **   SECTION:  EXPERIANCE          -----
 -----------------------------------------*/
 
+.experience {
+	background:#3e3d42; 
+	position:relative; 
+	z-index:50;
+	height:inherit;
+	text-align: left;
+	color:white;
+}
+
 .experience .container{
 	margin:10%;
 }
@@ -918,13 +930,14 @@ section h2 {
 
 
 .experience .logoContainer a.unity {
-	background-image: url("../images/unity_logo.jpg");
+	background-image: url("../images/unity-logo.png");
+	background-size: 70%;
 }
 .experience .logoContainer a.unreal {
-	background-image: url("../images/unreal.jpg");
+	background-image: url("../images/unreal.png");
 }
 .experience .logoContainer a.oculus {
-	background-image: url("../images/oculus_vr_logo.jpg");
+	background-image: url("../images/oculus_vr_logo.png");
 }
 
 .experience .logoContainer { 
@@ -943,8 +956,13 @@ section h2 {
 	list-style:none;
 }
 
-.experience .headset-container {
+.experience.vr {
+	background-color: white;
+	color:black;
+}
 
+.experience .headset-container {
+	margin-top:2em;
 }
 
 .experience .headset-container a img {
@@ -971,7 +989,7 @@ section h2 {
 -----------------------------------------*/
 
 .vr-player {
-	background: #272727;
+	background: #29282d;
 }
 
 .vr-player h2 {
@@ -983,6 +1001,14 @@ section h2 {
 	color: #939393;
 }
 
+/*---------------------------------------
+ **   SECTION:  Contact             -----
+-----------------------------------------*/
+
+#contact {
+	background-color: #3e3d42;
+	color:white;
+}
 
 /*---------------------------------------
  **   SECTION:  SKILLS              -----
@@ -1330,6 +1356,10 @@ footer {
 	color: #78a7f0;
 }
 
+#copyright {
+	margin-top: 5em;
+}
+
 /* ========================================= */
 /* -----------------------------------------*/
 /*   SINGLE PROJECT PAGE                     */
@@ -1372,7 +1402,6 @@ footer {
 }
 
 footer .container{
-	color:white;
 	padding-top: 3em;
 }
 
@@ -1381,13 +1410,11 @@ footer .container.mobile .column {
 }
 
 footer .contact .caption {
-    color: gray;
     font-size: 1.2em;
     padding-bottom: 0.8em;
 }
 
 footer .contact a {
-    color: #404040;
     text-decoration: none;
     font-size: 1.5em;
 }
