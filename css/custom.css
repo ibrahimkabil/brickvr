@@ -23,7 +23,7 @@ h2{ font-weight:300; font-family:Lato; }
 }
 
 .responsive-logo img {
-   /* width: 100% !important;*/
+    width: 73%;
 }
 
 video#bgvid {
