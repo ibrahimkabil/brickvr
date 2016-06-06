@@ -66,6 +66,7 @@
 
       </script>
 
+
       <!-- for Facebook -->          
       <meta property="og:title" content="Brick Simple Virtual Reality" />
       <meta property="og:type" content="website" />
@@ -149,6 +150,26 @@
 			});
 			
 		</script>
+
+      <script>
+         var videoPlayed = false;
+
+         $(function(){
+         
+            $(window).scroll(function(e) {
+               if(videoPlayed == false){
+                  var scrollAmount = $('body').scrollTop();   
+                  console.log(scrollAmount);
+                  if(scrollAmount >=500) {
+                     $("#videoHolder").html('<img class="ratio" src="http://placehold.it/16x9"/><iframe src="https://www.youtube.com/embed/vfj0u1pKyxI?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+                     videoPlayed = true;
+                  }
+               }
+            });
+         
+         });
+
+      </script>
       
       <!-- =========================
          PRE LOADER       
@@ -243,8 +264,12 @@
       </section>
       <section class="video">
          <div class="section-container wow fadeInUp animated animated">
-            <h2>! -- VIDEO GOES HERE -- !</h2>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/J6fMnXflbuk?list=PLXNR5AJ115MaqIP-2M_3PxcyEMFt2Psx7" frameborder="0" allowfullscreen></iframe> -->
+         <div class="wrapper">
+            <div id="videoHolder" class="videoContainer">
+               
+            </div>
+         </div>
+         
          </div>
       </section>
       <section class="experience" id="experience">

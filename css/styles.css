@@ -23,6 +23,10 @@ body {
 	text-align: center;
 }
 
+html,body {
+	height:100%;
+}
+
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
 	width: device-width;
@@ -868,16 +872,17 @@ section h2 {
 -----------------------------------------*/
 
 .video {
-	color: white;
+	/*color: white;*/
 }
 
-.video div {
-	height: 32em;
+.video .section-container {
+	margin:0;
 }
 
-.video iframe {
-
-}
+.video .wrapper {width:80%;height:100%;margin:0 auto;background:#CCC}
+.videoContainer        {position:relative;}
+.videoContainer .ratio {display:block;width:100%;height:auto;}
+.videoContainer iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 
 /*---------------------------------------
  **   SECTION:  EXPERIANCE          -----
