@@ -25,6 +25,7 @@
       <!-- =========================
          STYLESHEETS      
          ============================== -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/owl.theme.css">
       <link rel="stylesheet" href="css/owl.carousel.css">
@@ -34,11 +35,12 @@
       <link rel="stylesheet" href="css/pixeden-icons.css">
       
       <!-- CUSTOM STYLES -->
-      <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/styles.css">
+      
       
       <!-- WEBFONT -->
-      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400' rel='stylesheet' type='text/css'>
+      <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400' rel='stylesheet' type='text/css'> -->
       
       <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -70,9 +72,9 @@
       <!-- for Facebook -->          
       <meta property="og:title" content="Brick Simple Virtual Reality" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="images/screenshots/Logo.jpg" />
+      <meta property="og:image" content="images/BrickVR-Logo.jpg" />
       <meta property="og:url" content="http://www.brickvr.com" />
-      <meta property="og:description" content="BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the transcendent uniqueness of the VR/AR technology itself has become conventional." />
+      <meta property="og:description" content="BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our clients and our marketing/advertising agency partners. BrickVR creates applications and experiences that exploit the unique opportunity of VR/AR to engage people in a whole new way." />
 
 	  <!-- Responsive Slideshow -->
       <script src="slideshow/dist/slippry.min.js"></script>
@@ -174,14 +176,14 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <div class="navbar-brand">
+                  <!-- <div class="navbar-brand">
                      <a href="http://bricksimple.com/"><img id="logo" src="images/logoCombined-small.png" alt="" style='' ></a>
-                  </div>
+                  </div> -->
                </div>
                <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                   <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
                      <li class='current'>
-                        <a href="#portfolio">Home</a>
+                        <a href="#home">Home</a>
                      </li>
                      <li>
                         <a href="#about-us">About Us</a>
@@ -201,7 +203,7 @@
          </div>
          <!-- / END TOP BAR -->
 
-         <section class="video">
+         <section id="video" class="video">
             <div class="section-container wow fadeInUp animated animated">
             <div class="wrapper">
                <div id="videoHolder" class="videoContainer">
@@ -254,8 +256,8 @@
          <ul id="slideshow">
             <!-- add additional images by inserting a new <li> -->
             <li><img src="images/screenshots/Sentinel.jpg"></li>
-            <li><img src="images/screenshots/Panasonic.jpg"></li>
-            <li><img src="images/screenshots/Porsche.jpg"></li>
+            <li><img src="images/screenshots/Panasonic.png"></li>
+            <li><img src="images/screenshots/Porsche.png"></li>
             <li><img src="images/screenshots/NSquared.jpg"></li>
             <li><img src="images/screenshots/Bowling1.png"></li>
             <li><img src="images/screenshots/Dodgeball.png"></li>

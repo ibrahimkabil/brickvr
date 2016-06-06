@@ -14,7 +14,7 @@ html {
 }
 
 body {
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Roboto', sans-serif; !important;
 	font-size: 14px;
 	color: #808080;
 	font-weight: normal;
@@ -447,12 +447,25 @@ input:focus {
 	}
 }
 
+@media (max-width: 960px){
+	.container {
+	    display:none;
+	}
+}
+
 @media (min-width: 768px){
 	.navbar>.container .navbar-brand{
 		margin: 0;
     	padding: 0.2em 0em 1em 0em;
 	}
 }
+
+@media (max-width: 1024px) and (min-width: 992px){
+	.navbar-right {
+
+	}
+}
+
 
 
 .navbar-inverse .navbar-nav>li {
@@ -827,7 +840,7 @@ section .section-container {
 }
 
 section h2 {
-	font-family: Lato;
+	font-family: Roboto;
 	font-size:50px; 
 	font-weight:600; 
 	margin-top:40px; 
@@ -1528,7 +1541,7 @@ footer .contact a {
 	}
 
 	.VRLogo {
-		display: none;
+		/*display: none;*/
 	}
 }
 
@@ -1538,6 +1551,9 @@ footer .contact a {
 	padding: 0.7em 1em 1em 10em;
 }
 
-#main-nav .container {
-
+@media (min-width: 768px){
+	.container>.navbar-collapse{
+		margin-left:42%;
+	}
+	
 }
