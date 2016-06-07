@@ -253,7 +253,7 @@
             <div class="text-container">
                <p class="">We have worked with a wide range of VR platforms from mobile VR devices like Gear VR to room-scale experiences on the HTC Vive. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, and game developers with formal education (Digipen, Full Sail). Our BrickVR team has deep proficiences in Unity, Unreal, Windows, Android, iOS experience along with device-native software platforms. From real world 360/3D photography to full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features, our team is able to deliver the full stack of skills necessary to bring these experiences to life.</p>
                <br>
-               <p class="">Beyond VR, BrickVR has unparalleled AR experience including Microsoft HoloLens (wave 1 developer), Vuzix iWear, and ODG devices. During the Google Glass era, we established a reputation as one of the best known glassware developers in the world. One of our projects, working artist David Datuna, is the subject of an award-winning documentary being released in Summer, 2016.</p>
+               <p class="">Beyond VR, BrickVR has unparalleled AR experience including Microsoft HoloLens (wave 1 developer), Vuzix iWear, and ODG devices. During the Google Glass era, we established a reputation as one of the best known glassware developers in the world. One of our projects, working with artist David Datuna, is the subject of an award-winning documentary being released in Summer, 2016.</p>
             </div>
             <br><br>
          </div>
