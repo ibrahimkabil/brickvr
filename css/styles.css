@@ -1527,6 +1527,7 @@ footer .contact a {
 @media (max-width: 480px){
 	#main-nav.fixed {
 		width:90%;
+		min-height:50px;
 	}
 
 	.VRLogo {

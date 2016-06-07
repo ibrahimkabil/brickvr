@@ -68,6 +68,14 @@
 
       </script>
 
+      <!-- Change address bar color on mobile -->
+      <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+      <meta name="theme-color" content="#000000">
+      <!-- Windows Phone -->
+      <meta name="msapplication-navbutton-color" content="#000000">
+      <!-- iOS Safari -->
+      <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+
 
       <!-- for Facebook -->          
       <meta property="og:title" content="Brick Simple Virtual Reality" />
@@ -78,7 +86,7 @@
 
 	  <!-- Responsive Slideshow -->
       <script src="slideshow/dist/slippry.min.js"></script>
-	  <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="slideshow/demo/demo.css">
       <link rel="stylesheet" href="slideshow/dist/slippry.css">
 
@@ -167,7 +175,7 @@
       <header id="home" class="header">
          <!-- TOP BAR -->
          <div class="VRLogo"></div>
-         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav fixed" role="banner">
             <div class="container">
                <div class="navbar-header responsive-logo">
                   <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse">
@@ -250,7 +258,7 @@
             <br><br>
          </div>
       </section>
-      <section class="slideshow-wrapper wow fadeInUp animated">
+      <section class="slideshow-wrapper">
          <article class="slideshow-block">
             
          <ul id="slideshow">
