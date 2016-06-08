@@ -1,5 +1,5 @@
-body{ color: #000000; background-color:#000000; font-family:Lato; }
-h2{ font-weight:300; font-family:Lato; }
+body{ color: #000000; background-color:#000000; font-family:Roboto; }
+h2{ font-weight:300; font-family:Roboto; }
 
 .details{ display:none; }
 .profile-pic{
@@ -23,7 +23,7 @@ h2{ font-weight:300; font-family:Lato; }
 }
 
 .responsive-logo img {
-   /* width: 100% !important;*/
+    width: 73%;
 }
 
 video#bgvid {

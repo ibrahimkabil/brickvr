@@ -17,12 +17,15 @@
    <head>
       <meta charset="UTF-8">
       <meta name="author" content="BrickSimple LLC" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+
       <title>BrickSimple Virtual Reality</title>
       
       <!-- =========================
          STYLESHEETS      
          ============================== -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/owl.theme.css">
       <link rel="stylesheet" href="css/owl.carousel.css">
@@ -32,11 +35,12 @@
       <link rel="stylesheet" href="css/pixeden-icons.css">
       
       <!-- CUSTOM STYLES -->
-      <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/styles.css">
+      
       
       <!-- WEBFONT -->
-      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400' rel='stylesheet' type='text/css'>
+      <!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400' rel='stylesheet' type='text/css'> -->
       
       <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -64,16 +68,25 @@
 
       </script>
 
+      <!-- Change address bar color on mobile -->
+      <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+      <meta name="theme-color" content="#000000">
+      <!-- Windows Phone -->
+      <meta name="msapplication-navbutton-color" content="#000000">
+      <!-- iOS Safari -->
+      <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+
+
       <!-- for Facebook -->          
       <meta property="og:title" content="Brick Simple Virtual Reality" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="images/screenshots/Logo.jpg" />
+      <meta property="og:image" content="images/BrickVR-Logo.jpg" />
       <meta property="og:url" content="http://www.brickvr.com" />
-      <meta property="og:description" content="BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the transcendent uniqueness of the VR/AR technology itself has become conventional." />
+      <meta property="og:description" content="BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our clients and our marketing/advertising agency partners. BrickVR creates applications and experiences that exploit the unique opportunity of VR/AR to engage people in a whole new way." />
 
 	  <!-- Responsive Slideshow -->
       <script src="slideshow/dist/slippry.min.js"></script>
-	  <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="slideshow/demo/demo.css">
       <link rel="stylesheet" href="slideshow/dist/slippry.css">
 
@@ -94,7 +107,7 @@
          
          h2{
          	font-size:30px !important;
-         	line-height: 25px !important;
+         	line-height: 30px !important;
          }      
     	 
     	 .bullet{
@@ -107,7 +120,7 @@
      	
      	.header{ padding: 0px !important; }
      	
-     	.slideshow-wrapper{ margin-top:100px; opacity:0; }
+     	.slideshow-wrapper{ opacity:0; }
      	
      	.sy-pager{ display:none; }
      	
@@ -147,6 +160,8 @@
 			});
 			
 		</script>
+
+
       
       <!-- =========================
          PRE LOADER       
@@ -159,7 +174,8 @@
          ============================== -->
       <header id="home" class="header">
          <!-- TOP BAR -->
-         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+         <div class="VRLogo"></div>
+         <div id="main-nav" class="navbar navbar-inverse bs-docs-nav fixed" role="banner">
             <div class="container">
                <div class="navbar-header responsive-logo">
                   <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse">
@@ -168,14 +184,14 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <div class="navbar-brand">
-                     <a href="http://bricksimple.com/"><img src="images/logo.png" alt="" style='margin-top:-20px;' ></a>
-                  </div>
+                  <!-- <div class="navbar-brand">
+                     <a href="http://bricksimple.com/"><img id="logo" src="images/logoCombined-small.png" alt="" style='' ></a>
+                  </div> -->
                </div>
                <nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
                   <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
                      <li class='current'>
-                        <a href="#portfolio">Home</a>
+                        <a href="#home">Home</a>
                      </li>
                      <li>
                         <a href="#about-us">About Us</a>
@@ -194,222 +210,107 @@
             </div>
          </div>
          <!-- / END TOP BAR -->
-         <section class="portfolio" id="portfolio" ></section>
 
-       	<section class="slideshow-wrapper">
-			<article class="slideshow-block">
-				
-			<ul id="slideshow">
-				<!-- <li><img src="images/screenshots/Logo.jpg"></li> -->
-				<li><img src="images/screenshots/Sentinel.jpg"></li>
-				<li><img src="images/screenshots/Panasonic.jpg"></li>
-				<li><img src="images/screenshots/Porsche.jpg"></li>
-				<li><img src="images/screenshots/NSquared.jpg"></li>
-			</ul>
-			
-			</article>
-		
-		</section>		
+         <section id="video" class="video">
+            <div class="section-container wow fadeInUp animated animated">
+            <div class="wrapper">
+               <div id="videoHolder" class="videoContainer">
+                  <img class="ratio" src="http://placehold.it/16x9"/>
+                  <iframe id="demoreel" src="https://www.youtube.com/embed/vfj0u1pKyxI?rel=0&amp;&enablejsapi=1&controls=0&showinfo=0&loop=1&playlist=vfj0u1pKyxI&autoplay=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+               </div>
+            </div>
+            
+            </div>
+         </section>		
            
       </header>
 
 		
       <!-- / END HOME SECTION  -->
-      <section class="about-us" id="about-us">
-      <div class="wow fadeInUp animated animated">
-         <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>About Us</h2>
-         <div class="text-container">
-            <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our legacy clients and our marketing/advertising agency partners. Our philosophy is to create experiences and other market-focused content that remain interesting long after the  transcendent uniqueness of the VR/AR technology itself has become “conventional.”</p>
-            <br>
-            <p>Markets where we have demonstrated experience include Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, Military, and Engineering. Software platforms include Unity, Unreal Engine and Wikitude.</p>
-            <br>
-            <p>VR hardware platforms range from Google Cardboard and Samsung Gear VR to HTC Vive, Oculus Rift and Sony PSVR. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, game developers with formal education (Digipen, Full Sail), and software developers with deep Unity, Unreal, Wikitude, Windows, Android, iOS experience along with device-native software platforms. We are currently working on real-world photosphere and full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features.</p>
-            <br>
-            <p>AR platforms include Microsoft HoloLens (wave 1 developer), Vuzix iWear, ODG. We're also one of the original Google Glass developers, including a project supporting the renowned artist David Datuna about which an award-winning documentary will be released in Summer, 2016.</p>
-            <br>
-            <br>
+      <section class="about-us wow fadeInUp animated" id="about-us">
+         <div class="section-container wow fadeInUp animated animated">
+            <h2 class="white-text">About Us</h2>
+            <div class="text-container">
+               <p>BrickVR is the in-house Virtual Reality and Augmented Reality content development unit of BrickSimple. We work both to the benefit of our clients and our marketing/advertising agency partners. BrickVR creates applications and experiences that exploit the unique opportunity of VR/AR to engage people in a whole new way.</p>
+            </div>
          </div>
       </section>
-      <section class="experience" id="experience"></section>
-      <section style='background:rgba(255,255,255,1); position:relative; z-index:50;height:inherit'>
-      <div class="container" style='width:100%; text-align: left; '>
-      <!-- SECTION HEADER -->
-      <div class="section-header" style=' text-align: center;'>
-      <center>  
-      <?php if ($mobile == 1) { ?>
-      <center>
-         <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px;; text-transform: none;'>Platform Experience</h2>
-         <br>
-         <br>
-         <center>
-            <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>                  
-            <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'> 
-            <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%' style='float:left;'></a><br clear='all'><br clear='all'><br clear='all'>
-            <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png' style='float:left;'></a> 
-         </center>
-      </div>
-      <br clear='all'>
-      <br clear='all'>
-      <div style="font-size:14px; <?php if ($mobile == 1) { ?>margin-left:18px; line-height:24px; font-size: 20px;<? }else{ ?>line-height:37px; font-size: 14px;<? } ?>; text-align:left; float:left;">
-         <ul>
-            <li class='bullet'>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-            <li class='bullet'>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-            <li class='bullet'>&#8226; Real-world photosphere-driven experiences with navigation</li>
-            <li class='bullet'>&#8226; Dynamic 3D model driven experiences </li>
-            <li class='bullet'>&#8226; Particle effects, physics and modern game engine features</li>
-         </ul>        
-      </div>  
-      <br clear='all'>      <br clear='all'>
-      <br clear='all'>
-      <center>
-         <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg' style='margin-top:-40px;'></a>
-         <br clear='all'><br clear='all'> <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
 
-         <br clear='all'> <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-         <br clear='all'>
-                                       
-      </center>
-      <br clear='all'>
-      <br>
-      </div>
-      </div>
-      </div>
-      </center>
-      <?php } else { ?>
-      <center>
-         <div style='width:100%'>
-            <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.05s">
-               <h2 class="dark-text" style='font-family: Lato;font-size:50px; font-weight:600; margin-top:60px; line-height:64px; letter-spacing:1px; text-transform: none;'>Platform Experience</h2><br><br>
-               <div class="headsetContainer">
-                  <div class="headsetGroup">
-                     <a href='https://www.google.com/get/cardboard/' target='_blank'><img src='images/google-cardboard.png' width=240></a>
-                     <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img src='images/samsung-gear-vr.png' width=240></a>
-                  </div>
-                  <div class="headsetGroup">
-                     <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width=240></a>
-                     <a href='https://www.htcvive.com/us/' target='_blank'><img src='images/htc_vive.png' width=240></a> 
-                  </div>
+      <section class="experience wow fadeInUp animated" id="experience">
+         <div class="section-container">
+            <h2 class="">Working Experience</h2><br>
+            <div class="text-container">
+               <p class="">BrickVR has proven application experience in Pharmaceuticals/Medical Devices/Health Care, Retail, Real Estate, Live Events, Museums, Gaming, Education, and Engineering.</p>
+            </div>
+            <center>
+               <div class="logoContainer">
+                  <a class="unity" href='https://www.unity3d.com' target='_blank'></a>   
+                  <a class="unreal" href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'></a>
+                  <a class="oculus" href='https://www.oculus.com/en-us/' target='_blank'></a>
                </div>
+            </center>
+            <br>
+            <div class="text-container">
+               <p class="">We have worked with a wide range of VR platforms from mobile VR devices like Gear VR to room-scale experiences on the HTC Vive. BrickVR has a full stack of in-house talent including 3D artists, animators, and modelers, and game developers with formal education (Digipen, Full Sail). Our BrickVR team has deep proficiences in Unity, Unreal, Windows, Android, iOS experience along with device-native software platforms. From real world 360/3D photography to full-room experiences with navigation, dynamic 3D model driven experiences, particle effects, physics and modern game engine features, our team is able to deliver the full stack of skills necessary to bring these experiences to life.</p>
+               <br>
+               <p class="">Beyond VR, BrickVR has unparalleled AR experience including Microsoft HoloLens (wave 1 developer), Vuzix iWear, and ODG devices. During the Google Glass era, we established a reputation as one of the best known glassware developers in the world. One of our projects, working with artist David Datuna, is the subject of an award-winning documentary being released in Summer, 2016.</p>
             </div>
-         <div class="col-md-12 wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.25s">
-            <br clear='all'>
-            <br clear='all'>
-            <div class="expList">
-               <ul>
-                  <li>&#8226; Full stack of in-house talent to realize VR experiences. </li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; 3D artists, animators and models</li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Game developers with formal education (Digipen, Full Sail)</li>
-                  <li>&nbsp;&nbsp;&nbsp;&nbsp;&#9702;&nbsp;&nbsp; Software developers with deep Windows, iOS, and Android experience </li>
-                  <li>&#8226; Real-world photosphere-driven experiences with navigation</li>
-                  <li>&#8226; Dynamic 3D model driven experiences </li>
-                  <li>&#8226; Particle effects, physics and modern game engine features</li>
-               </ul>        
-            </div>  
-            <div class="logoContainer">
-               <a href='https://www.oculus.com/en-us/' target='_blank'><img width=230 src='images/oculus_vr_logo.jpg'></a>
-               <a href='https://www.unity3d.com' target='_blank'><img src='images/unity_logo.jpg' width='180' style='margin-top:-40px;'>   </a>
-               <br clear='all'>   
-               <a href='https://www.unrealengine.com/what-is-unreal-engine-4' target='_blank'><img src='images/unreal.jpg' width='110' style='margin-top:-5px;'></a>
-               <br clear='all'>
-               <br clear='all'>
-            </div>
-            <br clear='all'><br>
+            <br><br>
          </div>
-      </div>
-      </div>
-      </center>
-      <br>
-      <? } ?>
-      </center>
-      </div>
+      </section>
+      <section class="slideshow-wrapper">
+         <article class="slideshow-block">
+            
+         <ul id="slideshow">
+            <!-- add additional images by inserting a new <li> -->
+            <li><img src="images/screenshots/Sentinel.jpg"></li>
+            <li><img src="images/screenshots/Panasonic.png"></li>
+            <li><img src="images/screenshots/Porsche.png"></li>
+            <li><img src="images/screenshots/NSquared.jpg"></li>
+            <li><img src="images/screenshots/Bowling1.png"></li>
+            <li><img src="images/screenshots/Dodgeball.png"></li>
+            <li><img src="images/screenshots/Porsche1.png"></li>
+            <li><img src="images/screenshots/Porsche2.png"></li>
+            <li><img src="images/screenshots/TE1.png"></li>
+            <li><img src="images/screenshots/TE2.png"></li>
+            <li><img src="images/screenshots/Detailer3.png"></li>
+         </ul>
+         
+         </article>
+      
+      </section>
+      <section class="experience vr wow fadeInUp animated" id="vr">
+         <div class="section-container">
+            <div class="headset-container">
+               <center>
+                  <a href='https://www.google.com/get/cardboard/' target='_blank'><img width='100%' src='images/google-cardboard.png'></a>       
+                  <a href='http://www.samsung.com/global/microsite/gearvr/' target='_blank'><img width='100%' src='images/samsung-gear-vr.png'></a>
+                  <a href='https://www.oculus.com/en-us/' target='_blank'><img src='images/oculus_hardware.png' width='100%'></a>
+                  <a href='https://www.htcvive.com/us/' target='_blank'><img width='100%' src='images/htc_vive.png'></a>
+                  <a href='https://www.microsoft.com/microsoft-hololens' target='_blank'><img width='100%' src='images/hololens.png'></a>
+               </center>
+            </div>
+         </div>
       </section>
 
-      <section id="vr-player" class="vr-player wow fadeInUp animated">
-         <?php if ($mobile == 1) { ?>
-            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none; padding-bottom: 10px;'>Brick Simple White Label</h2><h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'><span style="color: #DF0808;">VR Player</span></h2>
-            <img src='images/VR_Player.png' style='width: 100%; margin-bottom: 2em;'>
-            <div class="text-container">
-               <br><p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
-            </div>
-         <?php } else { ?>
-            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>Brick Simple White Label <span style="color: #DF0808;">VR Player</span></h2>
+      <section id="vr-player" class="vr-player wow fadeInUp animated" style='padding-bottom:60px;'>
+         <div class="section-container">
+            <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>BrickSimple White Label <span style="color: #DF0808;">VR Player</span></h2>
             <div class="VRPlayerIMG"></div>
-            <!-- <img src='images/VR_Player.png' style='height: 25em; margin-bottom: 2em;'> -->
             <div class="text-container">
-               <p>The BrickSimple White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage the process of distributing privately-branded virtual reality videos and experiences and to set up a professional virtual reality channel hosted on a service of your choice. Control your brand and capture unique analytics with your own branded VR experience. No longer will you have to host at YouTube360 or other “free” hosting channels where your content will be shown along with embarrassing or inappropriate advertising from another company. Please <a href="#contact">contact us</a> for details.</p>
+               <br><p>The BrickVR White Label VR Player&#8482; allows marketing/advertising agencies and brands to manage and distribute privately-branded virtual reality video experiences. Using our player, you fully control the integrity your brand and capture unique analytics. Our player allows you to provide your clients and customers within your own private experience instead of directing them to a third party player. Please <a href="#contact">contact us</a> for details.</p>
             </div>
-         <? } ?>
-      </section>
-      
-      <section class="contact-us" style='display:none; background:rgba(0,0,0,.8); position:relative; z-index:50;'>
-         <div class="container">
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-               <!-- SECTION TITLE -->
-               <h2 class="white-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
-            </div>
-            <!-- / END SECTION HEADER -->
-            <!-- CONTACT FORM-->
-            <div class="row" style='margin-top:-40px;'>
-               <?php
-                  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                  
-                      $headers = "From: noreply@bricksimple.com\r\n";
-                      $headers .= "Reply-To: noreply@bricksimple.com \r\n";
-                      $headers .= "MIME-Version: 1.0\r\n";
-                      $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-                  
-                      // send e-mail
-                      mail('ibrahimkabil09@gmail.com', 'Message from BrickSimple.com', '<b>Name:</b> ' . $_POST['name'] . '<br><br><b>E-mail:</b>  ' . $_POST['email'] . '<br><br><b>Company:</b> ' . $_POST['company'] . '<br><br><b>Message:</b> ' . $_POST['message'], $headers);
-                  
-                      echo '<span style="font-size:28px; color:#FFFFFF;">Thank You!  Your message has been sent successfully.</span>';
-                  } else {
-                      ?>
-               <form role="form" name='contact_form' class="contact-form" id="contact-form" method='POST' action='?message=1#contact'>
-                  <div class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-                     <div class="col-lg-4 col-sm-4">
-                        <input type="text" name="name" placeholder="Name" class="form-control input-box" id="name">
-                     </div>
-                     <div class="col-lg-4 col-sm-4">
-                        <input type="email" name="email" placeholder="E-mail" class="form-control input-box" id="email">
-                     </div>
-                     <div class="col-lg-4 col-sm-4">
-                        <input type="text" name="company" placeholder="Company" class="form-control input-box" id="company">
-                     </div>
-                  </div>
-                  <div class="clearfix">
-                     <div class="col-md-12 wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
-                        <textarea name="message" class="form-control textarea-box" placeholder="Message" id="message"></textarea>
-                     </div>
-                  </div>
-                  <!-- IF MAIL SENT SUCCESSFULLY -->
-                  <h4 class="success pull-left white-text">
-                     Your message has been sent successfully.
-                  </h4>
-                  <!-- IF MAIL SENDING UNSUCCESSFULL -->
-                  <h4 class="error pull-left white-text">
-                     E-mail must be valid and message must be longer than 1 character.
-                  </h4>
-                  <button class="btn btn-primary custom-button red-btn wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s" type="submit" onclick='document.contact_form.submit();'>Send Message</button>
-               </form>
-               <?php } ?>
-            </div>
-            <!-- / END CONTACT FORM-->
          </div>
-         <!-- / END CONTAINER -->
       </section>
-      <!-- / END CONTACT US SECTION-->
-      <!-- =========================
+         <!-- =========================
          FOOTER             
          ============================== -->
-      <footer id="contact" class="dark-text wow fadeInUp animated" style='position:relative; z-index:500;'>
+      <footer id="contact" class="wow fadeInUp animated" style='position:relative; z-index:500;'>
       <?php if ($mobile == 1) { ?>
          <div class="container mobile">
          <div class="section-header">
                <!-- SECTION TITLE -->
-               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
+               <h2 style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
             </div>
          <center>
             <div class="row contact">
@@ -430,7 +331,7 @@
          <div class="container">
             <div class="section-header">
                <!-- SECTION TITLE -->
-               <h2 class="dark-text" style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
+               <h2 style='font-weight:500; font-size:50px; text-transform: none;'>Contact Us</h2>
             </div>
             <div class="row contact">
               <div class="one-third column"><div class="caption">Give us a call</div><a id="call-us" href="tel:+2152491940">215.249.1940</a></div>
