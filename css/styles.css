@@ -1420,6 +1420,7 @@ footer {
 
 footer .container{
 	padding-top: 3em;
+	display: block;
 }
 
 footer .container.mobile .column {
